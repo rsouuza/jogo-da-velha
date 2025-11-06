@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jogo da velha</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="box">
+        <H1 id="titulo">Atividade(Jogo da velha)</H1>
+        <table class="game">
+            <tr>
+                <td class="square" onclick="jogar(this)"></td>
+                <td class="square" onclick="jogar(this)"></td>
+                <td class="square" onclick="jogar(this)"></td>
+            </tr>
+
+             <tr>
+                <td class="square" onclick="jogar(this)"></td>
+                <td class="square" onclick="jogar(this)"></td>
+                <td class="square" onclick="jogar(this)"></td>
+            </tr>
+
+             <tr>
+                <td class="square" onclick="jogar(this)"></td>
+                <td class="square" onclick="jogar(this)"></td>
+                <td class="square" onclick="jogar(this)"></td>
+            </tr>
+        </table>
+        <input id="monkey" type="button" value="Limpar" onclick="location.reload()">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
