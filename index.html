@@ -3,32 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jogo da velha</title>
+    <title>Jogo da Velha</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <div class="box">
-        <H1 id="titulo">Atividade(Jogo da velha)</H1>
+        <h1 id="titulo">Atividade (Jogo da Velha)</h1>
+        
+        <div class="info-painel">
+            <div id="placar">
+                <span>X: <span id="scoreX">0</span></span> | 
+                <span>O: <span id="scoreO">0</span></span>
+            </div>
+            <div id="mensagem-vez">Vez do jogador: X</div>
+        </div>
+
         <table class="game">
             <tr>
-                <td class="square" onclick="jogar(this)"></td>
-                <td class="square" onclick="jogar(this)"></td>
-                <td class="square" onclick="jogar(this)"></td>
+                <td class="square" onclick="jogar(this)" id="0"></td>
+                <td class="square" onclick="jogar(this)" id="1"></td>
+                <td class="square" onclick="jogar(this)" id="2"></td>
             </tr>
-
-             <tr>
-                <td class="square" onclick="jogar(this)"></td>
-                <td class="square" onclick="jogar(this)"></td>
-                <td class="square" onclick="jogar(this)"></td>
+            <tr>
+                <td class="square" onclick="jogar(this)" id="3"></td>
+                <td class="square" onclick="jogar(this)" id="4"></td>
+                <td class="square" onclick="jogar(this)" id="5"></td>
             </tr>
-
-             <tr>
-                <td class="square" onclick="jogar(this)"></td>
-                <td class="square" onclick="jogar(this)"></td>
-                <td class="square" onclick="jogar(this)"></td>
+            <tr>
+                <td class="square" onclick="jogar(this)" id="6"></td>
+                <td class="square" onclick="jogar(this)" id="7"></td>
+                <td class="square" onclick="jogar(this)" id="8"></td>
             </tr>
         </table>
-        <input id="monkey" type="button" value="Limpar" onclick="location.reload()">
+        <input id="monkey" type="button" value="Limpar Tabuleiro" onclick="reiniciarJogo()">
     </div>
     <script src="script.js"></script>
 </body>
