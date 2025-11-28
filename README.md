@@ -2,7 +2,7 @@
 
 Um projeto simple de Jogo da Velha desenvolvido utilizando HTML, CSS e JavaScript puro para praticar.
 
-**Status do Projeto:** Em Desenvolvimento 
+**Status do Projeto:** Concluido 
 
 ---
 
@@ -22,6 +22,9 @@ Este projeto foi construído com as seguintes tecnologias:
 * Alternância automática de jogadores.
 * Opção para **Reiniciar o Jogo**.
 * Interface simples e intuitiva.
+* Contador de vitorias
+* indicador de vez de cada jogador
+* efeito de vitoria
 
 ---
 
@@ -34,17 +37,6 @@ Este projeto foi construído com as seguintes tecnologias:
     git clone [https://github.com/rsouuza/jogo-da-velha]
     ```
 2.  **Abra o arquivo `index.html`** no seu navegador de preferência.
-
-
----
-
-###  Próximas Atualizações 
-
-Este projeto está em constante evolução! Algumas das funcionalidades planejadas incluem:
-
-* **Implementação de um placar:** Contagem de vitórias para X e O.
-* **Melhorias de Design/UX:** Animações e feedback visual aprimorado.
-* **Modo de Jogo Contra a Máquina:** Implementar uma lógica básica para jogar contra o computador.
 
 ---
 
